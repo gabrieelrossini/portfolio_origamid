@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio desenvolvido por Gabriel Rossini, desenvolvedor full-stack">
     <title>Gabriel Rossini - Desenvolvedor</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <div class="root">
-        <header class="header">
-        <h1 class="header_title">Gabriel Rossini</h1>
+
+    <header class="header">
+        <p class="header_logo">Gabriel Rossini</p>
         <nav aria-label="primária">
             <ul class="header_nav">
                 <li><a class="header_nav_link" href="#experiencia">Experiência</a></li>
@@ -19,76 +22,128 @@
         </nav>
     </header>
     <main class="main">
-        <section class="section section-hero">
-            <div>
-                <img class="section-hero_img" src="./image/eu_e_theozin.jpg" alt="foto do mantenedor do site sentado ao computador.">
+        <img class="main-hero_img" src="./image/eu_e_theozin.jpg"
+            alt="foto do mantenedor do site sentado ao computador." width="600" height="800">
+        <section class="main-hero_section">
+            <h1 class="main-hero_section_title">Desenvolvedor<br>Full-Stack</h1>
+            <p class="main-hero_section_local">Manduri, Estado de São Paulo</p>
+        </section>
+    </main>
+    <section class="experience" aria-label="Experiência">
+        <h2 class="experience_title" id="experiencia">Experiência</h2>
+        <article>
+            <p class="experience_text">Dono e administrador da <strong>GMRTEC informática</strong>, com
+                experiência trabalhando no meio jurídico, especificamente no <strong>TJSP</strong> e
+                <strong>Defensoria Pública de SP</strong>, estou atualmente cursando a <strong>faculdade de
+                    bacharelado em Tecnologia da Informação</strong>, desenvolvendo projetos relacionados à
+                faculdade, à cursos intensivos e projetos pessoais.
+            </p>
+            <div class="experience_jobs">
+                <span class="experience_jobs_year">2022-Atual</span>
+                <h3 class="experience_jobs_title">GMRTEC Informática</h3>
+                <span class="experience_jobs_title">Dono e Administrador</span>
+                <p class="experience_jobs_text">Faço a gestão completa do negócio, desde vendas, controle de
+                    estoque, até a montagem, manutenação de computadores e configuração de Sistemas Operacionais.</p>
+                <ul class="experience_jobs_list">
+                    <li class="experience_jobs_list_item">Gestão</li>
+                    <li class="experience_jobs_list_item">Organização</li>
+                    <li class="experience_jobs_list_item">Hardware</li>
+                    <li class="experience_jobs_list_item">Sistemas Operacionais</li>
+                </ul>
             </div>
-            <article class="section-hero_article">
-                <h2 class="section-hero_article_title">Desenvolvedor Full-Stack</h2>
-                <p class="section-hero_article_local">Manduri, Estado de São Paulo</p>
-            </article>
-            
-        </section>
-        <section class="section section-experience" id="experiencia">
-            <h2>Experiência</h2>
-            <article>
-                <p>Administrador da GMRtec informática, com experiência trabalhando no meio jurídico (TJSP e Defensoria Pública de SP), estou atualmente cursando a faculdade de bacharelado em Tecnologia da Informação, desenvolvendo projetos relacionados à faculdade, à cursos intensivos e projetos pessoais.
-                </p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+            <div class="experience_jobs">
+                <span class="experience_jobs_year">2020-2022</span>
+                <h3 class="experience_jobs_title">Defensoria Pública de São Paulo</h3>
+                <span class="experience_jobs_title">Estagiário Jurídico</span>
+                <p class="experience_jobs_text">Fazia o atendimento ao público, organização de documentos,
+                    registro dos processos e elaboração de peças jurídicas.</p>
+                <ul class="experience_jobs_list">
+                    <li class="experience_jobs_list_item">Raciocínio Analítico</li>
+                    <li class="experience_jobs_list_item">Organização</li>
+                    <li class="experience_jobs_list_item">Atendimento ao Público</li>
                 </ul>
-            </article>
-        </section>
-        <section class="section section-academic" id="formacao">
-            <h2>Formação</h2>
-            <article>
-                <p>Bacharel em Direito, atualmente estou fazendo o curso de Bacharelado em Tecnologia da Informação na Univesp.
+            </div>
+            <div class="experience_jobs">
+                <span class="experience_jobs_year">2017-2019</span>
+                <h3 class="experience_jobs_title">Tribunal de Justiça de São Paulo</h3>
+                <span class="experience_jobs_title">Estagiário Jurídico</span>
+                <p class="experience_jobs_text">Fazia o controle de processos, envio documentos para análise,
+                    atendimento ao público e organização dos documentos para cumprimento de prazos.</p>
+                <ul class="experience_jobs_list">
+                    <li class="experience_jobs_list_item">Raciocínio Analítico</li>
+                    <li class="experience_jobs_list_item">Organização</li>
+                    <li class="experience_jobs_list_item">Atendimento ao Público</li>
+                </ul>
+            </div>
+        </article>
+    </section>
+    <section class="academic" id="formacao" aria-label="Formação">
+        <article class="academic_container">
+            <h2 class="academic_container_title">Formação</h2>
+            <div>
+                <p class="academic_container_text"><strong>Bacharel em Direito</strong>, atualmente estou fazendo o
+                    curso de <strong>Bacharelado em Tecnologia da Informação</strong> na
+                    <strong>Univesp</strong>. Além disso, me mantenho sempre atualizado com cursos intensivos online.
                 </p>
-                <p>Além disso, me mantenho sempre atualizado com cursos intensivos online.    
-                </p>
-                <ul>
-                    <li>
-                        <h3>Estudando</h3>
-                        <p>Tecnologia da Informação</p>
-                        <p>Univesp</p>
+
+                <ul class="academic_container_list">
+                    <li class="academic_container_list_item">
+                        <span class="academic_container_list_item_info">Estudando</span>
+                        <h3 class="academic_container_list_item_subtitle">Tecnologia da Informação</h3>
+                        <span class="academic_container_list_item_local">Univesp</span>
                     </li>
-                    <li>
-                        <h3>Bacharel</h3>
-                        <p>Direito</p>
-                        <p>Uneduvale</p>
+                    <li class="academic_container_list_item">
+                        <span class="academic_container_list_item_info">Bacharel</span>
+                        <h3 class="academic_container_list_item_subtitle">Direito</h3>
+                        <span class="academic_container_list_item_local">Uneduvale</span>
                     </li>
-                    <li>
-                        <h3>Administrador</h3>
-                        <p>GMRtec Informática</p>
-                        <p>Manduri - SP</p>
+                    <li class="academic_container_list_item">
+                        <span class="academic_container_list_item_info">Dono e Administrador</span>
+                        <h3 class="academic_container_list_item_subtitle">GMRTEC Informática</h3>
+                        <span class="academic_container_list_item_local">Manduri - SP</span>
                     </li>
                 </ul>
-            </article>
-        </section>
-        <section class="section section-contact">
-            <p class="section-contact_text">
+                <div class="academic_container_extra">
+                    <div class="academic_container_extra_topic">
+                        <h3>Cursos Intensivos</h3>
+                        <ul>
+                            <li>UX Design<span>17h</span></li>
+                            <li>Front-End<span>60h</span></li>
+                        </ul>
+                    </div>
+                    <div class="academic_container_extra_lang">
+                        <h3>Idiomas</h3>
+                        <ul>
+                            <li>Inglês<span> / Intermediário</span></li>
+                            <li>Espanhol<span> / Básico</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+
+    </section>
+    <footer class="footer" id="contato">
+        <div class="footer_container">
+            <p class="footer_container_text">
                 Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa!
             </p>
-            <nav aria-label="contato" id="contato">
-                <ul>
-                    <li><a class="section-contact_nav_link" href="mailto:gmrtec@proton.me">gmrtec@proton.me</a></li>
-                    <li><a class="section-contact_nav_link" href="https://github.com/gabrieelrossini" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                    <li><a class="section-contact_nav_link" href="https://codeberg.org/gabrieelrossini" target="_blank" rel="noopener noreferrer">Codeberg</a></li>
-                    <li><a class="section-contact_nav_link" href="https://www.linkedin.com/in/gabrieelrossini/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                </ul>
-            </nav>
-            
-        </section>
-       
-    </main>
-    <footer class="footer">
-         
-        <section>
-            <p>&copy; 2026 Gabriel Rossini. Todos os direitos reservados.</p>
-        </section>
+            <ul class="footer_container_contact">
+                <li><a href="mailto:gmrtec@proton.me">gmrtec@proton.me</a></li>
+                <li><a href="https://github.com/gabrieelrossini" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </li>
+                <li><a href="https://codeberg.org/gabrieelrossini" target="_blank"
+                        rel="noopener noreferrer">Codeberg</a></li>
+                <li><a href="https://www.linkedin.com/in/gabrieelrossini/" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a></li>
+            </ul>
+            <p class="footer_container_copy">&copy; 2026 Gabriel Rossini. Todos os direitos reservados.</p>
+        </div>
+
     </footer>
-    </div>
+
+
 </body>
+
 </html>

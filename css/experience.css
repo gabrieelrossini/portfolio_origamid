@@ -1,0 +1,116 @@
+.experience {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+
+.experience_title {
+    color:#e0e0e0;
+    font-size: 8rem;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-all;
+    max-width: 5ch;
+}
+
+.experience_text {
+    font-size: 1.5rem;
+    line-height: 1.33;
+    max-width: 50ch;
+    margin-bottom: 60px;
+    color: #525252;
+}
+
+.experience_text strong {
+    color: #141414;
+}
+
+.experience_jobs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+    background: #f5f5f5;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    position: relative; 
+}
+
+.experience_jobs::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 20px;
+    background: linear-gradient(#b629f8, #800add);
+    position: absolute;
+    top: 20px;
+    left: -4px;
+}
+
+.experience_jobs_year {
+    position: absolute;
+    top: 23px;
+    left: -100px;
+    color: #525252;
+    font-size: 0.875rem;
+    width: 80px;
+    text-align: right;
+}
+
+.experience_jobs_title {
+    font-size: 1.125rem;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+.experience_jobs_text {
+    font-size: 0.875rem;
+    color: #525252;
+    line-height: 1.4;
+}
+
+.experience_jobs_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: start;
+}
+
+.experience_jobs_list_item {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    border-radius: 4px;
+    background: #fff;
+    padding: 5px 10px;
+}
+
+@media (max-width: 800px) {
+    .experience {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .experience_title {
+        color: #141414;
+        max-width: initial;
+        font-size: 3rem;
+        text-transform: capitalize;
+    }
+    .experience_text {
+        font-size: 1.25rem;
+    }
+    .experience_jobs_year {
+        position: initial;
+        order: 1;
+        width: initial;
+        text-align: left;
+    }
+}
+
+@media (max-width: 500px) {
+    .experience_jobs {
+        grid-template-columns: 1fr;
+    }
+}
